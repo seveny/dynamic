@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+        <meta charset="utf-8">
+        <title>社区问答</title>
+        <script type="text/javascript">
+        	//rem转换
+			function rem() {
+				var w = Math.min(document.documentElement.getBoundingClientRect().width, 500);
+				document.getElementsByTagName('html')[0].style.fontSize = w * 100 / 375 + 'px';
+			}
+			rem();
+			window.onresize = function(){rem();};
+        </script>
+    </head>
+    <body>
+        <div class="list">
+        	<div id="header" class="header"></div>
+        	<div id="app" class="list-content"></div>
+        </div>
+    </body>
+</html>

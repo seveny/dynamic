@@ -1,0 +1,111 @@
+$level-icons: sprite-map("level-icons/*.png");
+$icons:sprite-map("icons/*.png");
+%sprite-base {
+  background: $level-icons no-repeat;
+  background-size: sprite-width($level-icons)/2 auto;
+}
+
+%sprite-base-icon {
+  background: $icons no-repeat;
+  background-size: sprite-width($icons)/2 auto;
+}
+
+.icons-lv1{
+  margin: 0px 0 0 5px;
+  display: inline-block;
+  @extend %sprite-base;
+  $sprite: lv1;
+  background-position: sprite-position($level-icons, $sprite,0,0,true) ;  
+  width: image-width(sprite-file($level-icons, $sprite))/2;
+  height: image-height(sprite-file($level-icons, $sprite))/2;  
+}
+.icons-lv2{
+  margin: 0px 0 0 5px;
+  display: inline-block;
+  @extend %sprite-base;
+  $sprite: lv2;
+  background-position: sprite-position($level-icons, $sprite,0,0,true) ;  
+  width: image-width(sprite-file($level-icons, $sprite))/2;
+  height: image-height(sprite-file($level-icons, $sprite))/2; 
+}
+.icons-lv3{
+  margin: 0px 0 0 5px;
+  display: inline-block;
+  @extend %sprite-base;
+  $sprite: lv3;
+  background-position: sprite-position($level-icons, $sprite,0,0,true) ;  
+  width: image-width(sprite-file($level-icons, $sprite))/2;
+  height: image-height(sprite-file($level-icons, $sprite))/2; 
+}
+.icons-lv4{
+  margin: 0px 0 0 5px;
+  display: inline-block;
+  @extend %sprite-base;
+  $sprite: lv4;
+  background-position: sprite-position($level-icons, $sprite,0,0,true) ;  
+  width: image-width(sprite-file($level-icons, $sprite))/2;
+  height: image-height(sprite-file($level-icons, $sprite))/2; 
+}
+.icons-lv5{
+  margin: 0px 0 0 5px;
+  display: inline-block;
+  @extend %sprite-base;
+  $sprite: lv5;
+  background-position: sprite-position($level-icons, $sprite,0,0,true) ;  
+  width: image-width(sprite-file($level-icons, $sprite))/2;
+  height: image-height(sprite-file($level-icons, $sprite))/2; 
+}
+.icons-lv6{
+  margin: 0px 0 0 5px;
+  display: inline-block;
+  @extend %sprite-base;
+  $sprite: lv6;
+  background-position: sprite-position($level-icons, $sprite,0,0,true) ;  
+  width: image-width(sprite-file($level-icons, $sprite))/2;
+  height: image-height(sprite-file($level-icons, $sprite))/2; 
+}
+.icons-lv7{
+  margin: 0px 0 0 5px;
+  display: inline-block;
+  @extend %sprite-base;
+  $sprite: lv7;
+  background-position: sprite-position($level-icons, $sprite,0,0,true) ;  
+  width: image-width(sprite-file($level-icons, $sprite))/2;
+  height: image-height(sprite-file($level-icons, $sprite))/2; 
+}
+.icons-lv8{
+  margin: 0px 0 0 5px;
+  display: inline-block;
+  @extend %sprite-base;
+  $sprite: lv8;
+  background-position: sprite-position($level-icons, $sprite,0,0,true) ;  
+  width: image-width(sprite-file($level-icons, $sprite))/2;
+  height: image-height(sprite-file($level-icons, $sprite))/2; 
+}
+.icons-lv9{
+  margin: 0px 0 0 5px;
+  display: inline-block;
+  @extend %sprite-base;
+  $sprite: lv9;
+  background-position: sprite-position($level-icons, $sprite,0,0,true) ;  
+  width: image-width(sprite-file($level-icons, $sprite))/2;
+  height: image-height(sprite-file($level-icons, $sprite))/2; 
+}
+.icons-guanfang{
+  margin: 0px 0 0 5px;
+  display: inline-block;
+  @extend %sprite-base;
+  $sprite: guanfang;
+  background-position: sprite-position($level-icons, $sprite,0,0,true) ;  
+  width: image-width(sprite-file($level-icons, $sprite))/2;
+  height: image-height(sprite-file($level-icons, $sprite))/2; 
+}
+.icons-yuer{
+  margin: 0px 0 0 5px;
+  display: inline-block;
+  @extend %sprite-base;
+  $sprite: yuer;
+  background-position: sprite-position($level-icons, $sprite,0,0,true) ;  
+  width: image-width(sprite-file($level-icons, $sprite))/2;
+  height: image-height(sprite-file($level-icons, $sprite))/2; 
+}

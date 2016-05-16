@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/**eg:
+<div class="ui-tab">
+    <ul class="ui-tab-nav ui-border-b">
+        <li class="current"><p>最热</p><div class="line ui-list-text border-list ui-border-r"></div></li>
+        <li><p>全部</p></li>
+    </ul>
+    <ul class="ui-tab-content" style="width: 200%;">
+        <li class="current">
+            <div class="list-content">
+   				//正文
+			</div>
+        </li>
+        <li></li>
+    </ul>
+</div>
+*/
+.ui-tab{
+	position:relative;
+}
+.ui-tab-nav{
+	height:getRem(80);
+	position:relative;
+
+	.ui-border-r{
+		margin-top: getRem(20);
+		margin-bottom: getRem(20);
+		height:50%;		
+	}
+
+	.line{
+		height:50%;
+		width:1px;
+		position: absolute;
+		left:50%;
+		top:0;
+		transform: translate(-50%,0);
+	}
+
+	li{		
+		line-height: getRem(80);
+		height:getRem(80);
+
+		p{
+			margin:0px 35%;
+			font-size: getRem(28);
+			color:$color-66;
+			line-height: getRem(78);	
+	    }
+	}
+	li.current{
+	    color: $color-pink;
+	    border-bottom:0;	    
+
+	    p{
+	    	border-bottom: getRem(4) $color-pink solid;
+	    }
+	}
+}

@@ -1,0 +1,56 @@
+$color-black: #333333;
+$color-gray: #aaaaaa;
+$color-pink: #ff397e;
+$color-good:#5d5a80;
+$color-99:#999999;
+$color-blue:#7083b4;
+$color-f4:#f4f4f4;
+$color-66:#666;
+$color-33:#333;
+$color-dd:#ddd;
+
+img{
+	width:100%;	
+	display:block;
+}
+
+.gap{	
+	width: 100%;
+	background-color: $color-dd;
+}
+
+.h1{
+	height:1px;
+}
+.h4{
+	height:getRem(8);
+}
+.h8{
+	height:getRem(16);
+}
+.h10{
+	height:getRem(20);
+}
+
+.center-box{
+	width:100%;
+  	margin:auto;
+	position:absolute;
+	top:50%;
+	left:50%;
+	-webkit-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+	text-align: center; 
+	margin:0 auto;
+}
+
+.h-center-box{
+	width:100%;
+	margin:auto;
+  	position:absolute;  
+    left:50%;
+  	-webkit-transform:translate(-50%,0);
+  	transform:translate(-50%,0);
+  	text-align: center; 
+  	margin:0 auto;
+}

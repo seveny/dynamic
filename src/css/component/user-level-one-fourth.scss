@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/**
+为有使用small size的图标
+先引入user-level
+*/
+%sprite-base-one-fourth {
+  background: $level-icons no-repeat;
+  background-size: sprite-width($level-icons)/2.545 auto;
+}
+.icons-one-fourth-lv1{
+  margin: 0px 0 0 5px;
+  display: inline-block;
+  @extend %sprite-base-one-fourth;
+  $sprite: lv1;
+  background-position: sprite-position($level-icons, $sprite,0,0,true) ;  
+  width: image-width(sprite-file($level-icons, $sprite))/2.545;
+  height: image-height(sprite-file($level-icons, $sprite))/2.545;  
+}
+.icons-one-fourth-lv2{
+  margin: 0px 0 0 5px;
+  display: inline-block;
+  @extend %sprite-base-one-fourth;
+  $sprite: lv2;
+  background-position: sprite-position($level-icons, $sprite,0,0,true) ;  
+  width: image-width(sprite-file($level-icons, $sprite))/2.545;
+  height: image-height(sprite-file($level-icons, $sprite))/2.545; 
+}
+.icons-one-fourth-lv3{
+  margin: 0px 0 0 5px;
+  display: inline-block;
+  @extend %sprite-base-one-fourth;
+  $sprite: lv3;
+  background-position: sprite-position($level-icons, $sprite,0,0,true) ;  
+  width: image-width(sprite-file($level-icons, $sprite))/2.545;
+  height: image-height(sprite-file($level-icons, $sprite))/2.545; 
+}
+.icons-one-fourth-lv4{
+  margin: 0px 0 0 5px;
+  display: inline-block;
+  @extend %sprite-base-one-fourth;
+  $sprite: lv4;
+  background-position: sprite-position($level-icons, $sprite,0,0,true) ;  
+  width: image-width(sprite-file($level-icons, $sprite))/2.545;
+  height: image-height(sprite-file($level-icons, $sprite))/2.545; 
+}
+.icons-one-fourth-lv5{
+  margin: 0px 0 0 5px;
+  display: inline-block;
+  @extend %sprite-base-one-fourth;
+  $sprite: lv5;
+  background-position: sprite-position($level-icons, $sprite,0,0,true) ;  
+  width: image-width(sprite-file($level-icons, $sprite))/2.545;
+  height: image-height(sprite-file($level-icons, $sprite))/2.545; 
+}
+.icons-one-fourth-lv6{
+  margin: 0px 0 0 5px;
+  display: inline-block;
+  @extend %sprite-base-one-fourth;
+  $sprite: lv6;
+  background-position: sprite-position($level-icons, $sprite,0,0,true) ;  
+  width: image-width(sprite-file($level-icons, $sprite))/2.545;
+  height: image-height(sprite-file($level-icons, $sprite))/2.545; 
+}
+.icons-one-fourth-lv7{
+  margin: 0px 0 0 5px;
+  display: inline-block;
+  @extend %sprite-base-one-fourth;
+  $sprite: lv7;
+  background-position: sprite-position($level-icons, $sprite,0,0,true) ;  
+  width: image-width(sprite-file($level-icons, $sprite))/2.545;
+  height: image-height(sprite-file($level-icons, $sprite))/2.545; 
+}
+.icons-one-fourth-lv8{
+  margin: 0px 0 0 5px;
+  display: inline-block;
+  @extend %sprite-base-one-fourth;
+  $sprite: lv8;
+  background-position: sprite-position($level-icons, $sprite,0,0,true) ;  
+  width: image-width(sprite-file($level-icons, $sprite))/2.545;
+  height: image-height(sprite-file($level-icons, $sprite))/2.545; 
+}
+.icons-one-fourth-lv9{
+  margin: 0px 0 0 5px;
+  display: inline-block;
+  @extend %sprite-base-one-fourth;
+  $sprite: lv9;
+  background-position: sprite-position($level-icons, $sprite,0,0,true) ;  
+  width: image-width(sprite-file($level-icons, $sprite))/2.545;
+  height: image-height(sprite-file($level-icons, $sprite))/2.545; 
+}
+.icons-one-fourth-guanfang{
+  margin: 0px 0 0 5px;
+  display: inline-block;
+  @extend %sprite-base-one-fourth;
+  $sprite: guanfang;
+  background-position: sprite-position($level-icons, $sprite,0,0,true) ;  
+  width: image-width(sprite-file($level-icons, $sprite))/2.545;
+  height: image-height(sprite-file($level-icons, $sprite))/2.545; 
+}
+.icons-one-fourth-yuer{
+  margin: 0px 0 0 5px;
+  display: inline-block;
+  @extend %sprite-base-one-fourth;
+  $sprite: yuer;
+  background-position: sprite-position($level-icons, $sprite,0,0,true) ;  
+  width: image-width(sprite-file($level-icons, $sprite))/2.545;
+  height: image-height(sprite-file($level-icons, $sprite))/2.545; 
+}

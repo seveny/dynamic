@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/**
+eg:
+<header class="hd-jianjie ui-list-text border-list ui-border-tb">
+            <div class="desc">djkdkdkdkdkdd</div>
+            <div class="user-focus">
+                <div class="focus"><i class="iconfont icon-jiahao"></i>关心</div>
+            </div>
+            <div class="total-info"><span class="total">已有2340条帖子</span><span class="today">今日+34</span></div>
+        </header>
+*/
+header.hd-jianjie{
+	position:relative;
+	background-color:#fff;
+	padding:getRem(30);
+
+	.desc{	
+		padding-left:0;	
+		padding-right:getRem(180);
+		font-size: getRem(26);
+		line-height: getRem(36);
+		color:$color-black;
+		word-wrap: break-word;
+    	word-break: break-all;
+	}
+
+	.user-focus{
+		position:absolute;
+		right:getRem(30);
+		top:getRem(30);		
+	}
+
+	.focus{
+		color:$color-pink;				
+		height:getRem(50);
+		width:getRem(120);
+		text-align: center;
+		vertical-align: middle;
+		font-size: getRem(28);
+		border-radius:getRem(6);
+		border:1px solid #ff397e;
+		line-height: getRem(46);
+		
+		i{
+			font-size: getRem(26);
+			padding-right:getRem(4);			
+		}				
+	}
+
+	.total-info{
+		font-size: getRem(22);
+		color:$color-99;
+		padding-top:getRem(15);		
+		.total{			
+			padding-right:getRem(30);
+		}
+	}		
+}
+.fixed{
+	position:fixed !important;
+	top:0;
+	z-index:99;
+}
